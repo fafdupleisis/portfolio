@@ -1,0 +1,406 @@
+html, body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 100%;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  color: rgb(36, 35, 4);
+  ;
+  background-color: rgb(36, 35, 40);
+}
+
+img {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .9;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  color: inherit;
+  background: rgb(21, 18, 23);
+  width: auto;
+  height: 90px;
+}
+
+h1 {
+  display: inline;
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-top: 70px;
+  text-align: center;
+  color: rgba(125, 71, 121, 0.81);
+  background-color: rgb(21, 18, 23);
+  text-transform: capitalize;
+}
+
+nav ul {
+  display: inline;
+  padding: 0px;
+  float: left;
+  z-index: -1;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: relway, sans-serif;
+  float: left;
+  padding-right: 10px;
+  margin-left: 12px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav ul li a {
+  background: rgb(192, 192, 192);
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-top: 0;
+  background: rgba(10, 10, 7, 0.75);
+  padding-bottom: 0;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(125, 71, 121, 0.81);
+  text-transform: capitalize;
+  font-family: 'oswald', sans-serif;
+}
+
+#nav {
+  font-family: relway, sans-serif;
+  font-weight: 400;
+}
+
+.homeblack {
+  color: rgb(232, 236, 237);
+  background-color: rgb(27, 2, 18);
+}
+
+.homebrown {
+  background-color: grey;
+  color: inherit;
+}
+
+.divider {
+  background-color: black;
+  color: grey;
+  height: 1px;
+  margin-left: 25%;
+}
+
+nav a:hover {
+  color: silver;
+  background-color: rgb(3, 1, 11);
+}
+
+.kones {
+  opacity: 1;
+  z-index: 1;
+  max-width: 80%;
+  border-radius: 100%;
+  float: left;
+  max-height: 100%;
+}
+
+.aboutmycv {
+  text-align: center;
+  height: auto;
+  position: absolute;
+  top: 13%;
+  font-family: relway, sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+h1, footer, .content {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: rgb(249, 170, 187);
+  }
+  25% {
+    color: rgba(125, 71, 121, 0.81);
+  }
+  100% {
+    color: rgb(249, 170, 187);
+  }
+}
+
+.keep {
+  opacity: 1;
+  z-index: 1;
+  max-width: 80%;
+  border-radius: 100%;
+  float: left;
+  max-height: 100%;
+}
+
+.aboutme {
+  margin-top: 450px;
+  text-align: center;
+  max-height: 600px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  font-family: relway, sans-serif;
+  font-size: 16px;
+  color: rgb(249, 170, 187);
+}
+
+.aboutus {
+  text-align: justify;
+  height: auto;
+  max-height: 70%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  padding-left: 10px;
+  bottom: 70px;
+  text-align: left;
+  font-family: relway, sans-serif;
+  font-size: 16px;
+  color: rgb(249, 1710, 187);
+}
+
+.container {
+  font-family: relway, sans-serif;
+  color: rgb(249, 170, 187);
+  background-color: rgb(15, 14, 15);
+  padding-top: 20px;
+}
+
+.content:hover {
+  color: rgba(106, 20, 88, 0.73);
+  background-color: rgb(103, 106, 103)
+}
+
+.canvas:hover {
+  color: rgb(249, 170, 187);
+  background-color: rgb(174, 177, 177);
+}
+
+h4 {
+  color: rgb(249, 170, 187);
+  background-color: inherit;
+}
+
+.video {
+  height: auto;
+  max-width: 99%;
+  margin-left: 0;
+  position: relative;
+  box-sizing: content-box;
+  box-sizing: content-box;
+  background: none;
+  border: 0px;
+  outline: none;
+}
+
+.canvas {
+  width: 100%;
+  background: rgb(15, 14, 15);
+  position: relative;
+}
+
+.metoo {
+  height: 17px;
+  position: relative;
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;
+  /* Safari 4.0 - 8.0 */
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes mymove {
+  0% {
+    top: 0px;
+    background: white;
+    width: 100%;
+  }
+  100% {
+    top: 200px;
+    background: blue;
+    width: 100%;
+  }
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+    background: white;
+    width: 100%;
+  }
+  100% {
+    top: 200px;
+    background: blue;
+    width: 100%;
+  }
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+    background: white;
+    width: 100%;
+  }
+  100% {
+    top: 100%;
+    background: blue;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html, header, body, h1, h2, h3, h4, p, h5, h6, body, footer {
+    font-size: 0.9rem;
+    max-height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    html {
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      -webkit-transform-origin: left top;
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      height: 100vh;
+      overflow-y: hidden;
+      left: 0;
+      top: o;
+    }
+    @media screen and (min-width: 480px) {
+      .aboutmycv {
+        max-height: 80%;
+      }
+    }
+    /changes before git init * //
+    /*
+@media only screen and (max-width: 480px) {
+  header {
+    height: 10%;
+  }
+  @media only screen and (max-width: 480px) {
+    body {
+      height: 95%;
+    }
+    @media only screen and (max-width: 480px) {
+      footer {
+        height: 5%;
+      }
+      @media only screen and (max-width: 480px) {
+        .aboutus, .container, .content, .more {
+          max-height: 100%;
+          width: auto;
+          font-size: 0.91rem;
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        .aboutmycv, .kones, ..keep, .aboutme, .more, .video, .canvas {
+          height: auto;
+          width: 100%;
+          font-size: 0.91rem;
+        }
+      }
+      /*
+
+@media only screen and (max-width: 480px) {
+  .aboutme {
+    max-height: 70%;
+  }
+  @media only screen and (max-width: 480px) {
+    .aboutmycv {
+      max-height: 70%;
+      width: 100%;
+      top: 140px;
+      text-align: left;
+      margin-left: 0;
+      font-size: 0.91rem;
+    }
+    @media only screen and (max-width: 480px) {
+      .keep {
+        height: auto;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        float: left;
+      }
+      @media only screen and (max-width: 480px) {
+        .video {
+          height: auto;
+          width: 70%;
+          position: contain;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        @media only screen and (max-width:480 px) {
+          .aboutme, .aboutus, .contenttt {
+            font-size: .91rem;
+          }
+        } //*  tablet to desktop*/
+    /*
+      / @media only screen and (min-width: 490px) {
+        html, body, h2, h3, h4, h5, footer {
+          font-size: 1.5rem;
+          height: auto;
+          width: 100%;
+        }
+
+      @media only screen and (min-width: 490px) {
+        .keep {
+          height: 70%;
+          width: 100%;
+          margin-left: 400px;
+          margin-right: 20px;
+        }
+        @media screen(min-width:490px) {
+          .aboutmycv {
+            color: rgb(249, 170, 187);
+            height: auto;
+            width: 100%;
+            top: 140px;
+            text-align: centred;
+            font-size: 1.5rem;
+          }
+        }
+        @media only screen and (min-width: 480px) {
+          .video {
+            width: 100%;
+            height: auto;
+          }
+          @media only screen and (min-width:560px) {
+            body {
+              font-size: 1.4rem;
+              height: auto;
+*/
